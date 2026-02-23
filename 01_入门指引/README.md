@@ -138,11 +138,11 @@
 │    │         │           │           │           │          │       │
 │    ▼         ▼           ▼           ▼           ▼          ▼       │
 │  ┌────┐   ┌────┐     ┌────┐     ┌────┐     ┌────┐     ┌────┐       │
-│  │起源│   │控制│     │学习│     │深度│     │大模型│    │？？│       │
+│  │起源│   │控制│     │学习│     │深度│     │大模型│    │爆发│       │
 │  └────┘   └────┘     └────┘     └────┘     └────┘     └────┘       │
 │    │         │           │           │           │                  │
 │  图灵测试   Shakey    强化学习    AlexNet    GPT时代    具身        │
-│  思考机器   移动机器人   出现       革命      开始      智能爆发？      │
+│  思考机器   移动机器人   出现       革命      开始      智能        │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -220,11 +220,14 @@
 **标志性事件**：
 - **2020** - GPT-3 展示大规模预训练的力量
 - **2022** - ChatGPT 引发通用AI热潮
-- **2023** - **具身智能爆发**：
-  - Google RT-1/RT-2：Transformer驱动的机器人控制
+- **2023-2025** - **具身智能爆发**：
+  - Google RT-1/RT-2/RT-3：Transformer驱动的机器人控制
   - Stanford ALOHA：低成本双臂遥操作
-  - Unitree H1 / Figure 01：人形机器人突破
+  - Unitree H1 / G1：国产人形机器人突破
   - Tesla Optimus：大规模制造愿景
+  - Figure 01：端到端神经网络控制突破
+  - NVIDIA GR00T：通用人形机器人基础模型
+  - DeepMind RTX：泛化能力突破
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -233,15 +236,15 @@
 │                                                             │
 │   ┌──────────────┐    ┌──────────────┐    ┌──────────────┐ │
 │   │  视觉语言模型 │    │   大语言模型  │    │  动作模型    │ │
-│   │   (VLM)      │    │    (LLM)     │    │   (Policy)   │ │
-│   │  CLIP/LLaVA  │    │ GPT/Claude   │    │  RT-1/RT-2   │ │
+│   │   (VLM)      │    │    (LLM)     │    │   (VLA)      │ │
+│   │  CLIP/LLaVA │    │ GPT/Claude   │    │ RT-2/GR00T   │ │
 │   └──────┬───────┘    └──────┬───────┘    └──────┬───────┘ │
 │          │                   │                   │         │
 │          └───────────────────┼───────────────────┘         │
 │                              ▼                             │
 │                    ┌──────────────────┐                    │
 │                    │   多模态大模型    │                    │
-│                    │  (PaLM-E, RT-X)  │                    │
+│                    │  (PaLM-E, RTX)   │                    │
 │                    └────────┬─────────┘                    │
 │                             ▼                              │
 │                    ┌──────────────────┐                    │
@@ -280,8 +283,8 @@
 │  ┌─────────────────────────────────────────────────────────────────────┐   │
 │  │                     算法层（Algorithms）                             │   │
 │  │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌────────┐ │   │
-│  │  │ 运动规划 │  │ 强化学习 │  │ 模仿学习 │  │ SLAM     │  │ 控制论 │ │   │
-│  │  │ Planning │  │    RL    │  │   IL     │  │          │  │Control │ │   │
+│  │  │ 运动规划 │  │ 强化学习 │  │ 模仿学习 │  │ 世界模型 │  │扩散模型│ │   │
+│  │  │ Planning │  │    RL    │  │   IL     │  │World Model│ │Diffusion│ │   │
 │  │  └──────────┘  └──────────┘  └──────────┘  └──────────┘  └────────┘ │   │
 │  └─────────────────────────────────────────────────────────────────────┘   │
 │                                    ▲                                       │
@@ -335,6 +338,7 @@
 | **模仿学习（IL）** | 从专家演示学习 | 学习效率高 | 分布偏移问题 |
 | **基于模型（MBRL）** | 学习世界模型预测 | 样本效率高 | 模型误差累积 |
 | **扩散模型** | 从噪声生成动作序列 | 表达能力强 | 计算开销大 |
+| **VLA（视觉-语言-动作）** | 多模态大模型输出动作 | 泛化能力强 | 推理延迟高 |
 
 #### 4.2.3 运动规划（Motion Planning）
 
@@ -434,14 +438,20 @@
 2. **社会接受度**：拟人化交互更自然
 3. **通用性**：一个身体应对多种任务
 
-**代表产品**：
+**2025-2026年代表产品**：
 | 产品 | 公司 | 特点 |
 |------|------|------|
 | Atlas | Boston Dynamics | 最强运动能力 |
-| Figure 01 | Figure AI | 端到端神经网络控制 |
-| Optimus | Tesla | 规模化制造愿景 |
-| Unitree H1 | 宇树科技 | 高性价比 |
+| Figure 01/02 | Figure AI | 端到端神经网络控制 |
+| Optimus Gen 3 | Tesla | 规模化制造愿景 |
+| Unitree H1/G1 | 宇树科技 | 高性价比，国产领先 |
 | GR-1 | 傅利叶智能 | 中国领先 |
+| GR00T | NVIDIA | 通用人形机器人基础模型 |
+
+**行业里程碑**：
+- 2024年：Figure 01实现端到端神经网络控制
+- 2025年：Tesla Optimus进厂"打工"
+- 2026年：NVIDIA GR00T发布，通用模型时代开启
 
 #### 🚗 自动驾驶（Autonomous Driving）
 
@@ -481,15 +491,15 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 │  第1阶段：核心技能                                                           │
 │  ┌──────────────┬──────────────┬──────────────┬──────────────┐             │
 │  │ 计算机视觉   │  ROS/机器人  │  强化学习    │  SLAM        │             │
-│  │  OpenCV     │  中间件      │  Stable      │  GMapping    │             │
-│  │  目标检测   │  运动学      │  Baselines3  │  ORB-SLAM    │             │
+│  │  OpenCV     │  中间件      │  PPO/SAC    │  LIO-SAM    │             │
+│  │  目标检测   │  运动学      │  离线RL     │  ORB-SLAM   │             │
 │  └──────────────┴──────────────┴──────────────┴──────────────┘             │
 │                              ↓                                              │
 │  第2阶段：进阶专题                                                           │
 │  ┌──────────────┬──────────────┬──────────────┬──────────────┐             │
-│  │ 模仿学习     │  多模态大模型│  运动规划    │  仿真平台    │             │
-│  │  Diffusion  │  CLIP/LLaVA │  MoveIt     │  Isaac Sim   │             │
-│  │  Policy     │  RT-X/RT-2  │  OMPL       │  MuJoCo      │             │
+│  │ 模仿学习     │  多模态大模型│  世界模型    │  扩散模型    │             │
+│  │  DAgger     │  VLA/RT-X   │  Dreamer    │ Diffusion   │             │
+│  │  GAIL       │  LLaVA      │  GAIRL      │  Policy     │             │
 │  └──────────────┴──────────────┴──────────────┴──────────────┘             │
 │                              ↓                                              │
 │  第3阶段：实践项目                                                           │
@@ -510,6 +520,7 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 | 《Probabilistic Robotics》 | Thrun, Burgard, Fox | 概率机器人学圣经 |
 | 《Robotics, Vision and Control》 | Peter Corke | 全面入门教材 |
 | 《Reinforcement Learning》 | Sutton & Barto | 强化学习经典 |
+| 《Deep Learning for Robot Manipulation》 | various | 机器人深度学习 |
 
 #### 🎓 在线课程
 
@@ -518,6 +529,7 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 | CS223A - Robotics | Stanford | 机器人学基础 |
 | CS285 - Deep RL | UC Berkeley | 深度强化学习 |
 | Robotic Manipulation | MIT 6.4210 | 机器人操作 |
+| Visual Navigation | MIT | 视觉导航 |
 
 #### 🛠️ 开源工具
 
@@ -529,6 +541,7 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 | **PyBullet** | 机器人仿真 | https://pybullet.org |
 | **HuggingFace LeRobot** | 机器人学习库 | https://github.com/huggingface/lerobot |
 | **Open X-Embodiment** | 数据集与模型 | https://robotics-transformer-x.github.io |
+| **NVIDIA Isaac Lab** | 机器人学习框架 | https://github.com/isaac-sim/IsaacLab |
 
 ### 6.3 实践建议
 
@@ -539,14 +552,14 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 │                                                                 │
 │  1️⃣  从仿真开始                                                  │
 │      • 成本低、安全、可重复                                       │
-│      • 推荐：Isaac Sim, MuJoCo, PyBullet                         │
+│      • 推荐：Isaac Lab, MuJoCo, PyBullet                         │
 │                                                                 │
 │  2️⃣  掌握一个完整流程                                            │
 │      • 感知 → 决策 → 控制                                        │
 │      • 从一个简单任务（如：抓取方块）开始                          │
 │                                                                 │
 │  3️⃣  复现经典论文                                                │
-│      • RT-1, ALOHA, Diffusion Policy                             │
+│      • RT-2, ALOHA, Diffusion Policy, GR00T                     │
 │      • 理解state-of-the-art方法的细节                             │
 │                                                                 │
 │  4️⃣  参与开源社区                                                │
@@ -557,6 +570,7 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 │      • 低成本平台：TurtleBot, JetBot                               │
 │      • 遥操作学习：ALOHA/Stretch                                   │
 │      • 机械臂：xArm, Franka, UR                                    │
+│      • 人形机器人：Unitree G1, Fourier GR-1                       │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -569,11 +583,11 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 
 | 挑战 | 说明 | 研究方向 |
 |------|------|---------|
-| **Sim-to-Real Gap** | 仿真到现实的迁移困难 | Domain Randomization, System ID |
-| **Sample Efficiency** | 真实世界数据采集昂贵 | 离线RL, 世界模型, 大模型迁移 |
-| **Generalization** | 跨任务、跨环境的泛化 | 基础模型, 元学习 |
+| **Sim-to-Real Gap** | 仿真到现实的迁移困难 | Domain Randomization, System ID, Sim2Real |
+| **Sample Efficiency** | 真实世界数据采集昂贵 | 离线RL, 世界模型, 遥操作数据 |
+| **Generalization** | 跨任务、跨环境的泛化 | 基础模型, 元学习, VLA |
 | **Safety** | 物理交互的安全保障 | Safe RL, 形式化验证 |
-| **Long-horizon Tasks** | 复杂多步骤任务规划 | 层次化RL, 任务规划 |
+| **Long-horizon Tasks** | 复杂多步骤任务规划 | 层次化RL, 任务规划, LLM规划 |
 
 ### 7.2 未来趋势
 
@@ -582,17 +596,18 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 │                     具身智能未来趋势                             │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  🔮 2024-2025                                                    │
-│     • 视觉-语言-动作（VLA）模型成熟                               │
-│     • 人形机器人进入工厂实际部署                                  │
+│  🔮 2025-2026                                                    │
+│     • VLA（视觉-语言-动作）模型成为标配                           │
+│     • 人形机器人进入工厂/服务业实际部署                           │
 │     • 数据飞轮：遥操作 → 学习 → 部署 → 更多数据                   │
+│     • 机器人基础模型（Foundation Model）成熟                     │
 │                                                                 │
-│  🔮 2025-2027                                                    │
+│  🔮 2026-2028                                                    │
 │     • 通用具身智能基础模型出现                                    │
-│     • 低成本机器人平台普及                                        │
+│     • 低成本机器人平台普及（万元级人形机器人）                    │
 │     • 服务机器人进入家庭场景                                      │
 │                                                                 │
-│  🔮 2027-2030                                                    │
+│  🔮 2028-2030                                                    │
 │     • 机器人即服务（RaaS）商业模式成熟                            │
 │     • 多机器人协作系统                                            │
 │     • 通用人工智能（AGI）的物理载体                               │
@@ -607,15 +622,19 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 > 它不仅是技术的融合，更是对人类智能本质的深刻理解——智能源于身体与世界的互动。
 > 
 > 无论你是来自AI、机器人、控制还是认知科学背景，这个领域都有广阔的空间等待探索。
+> 
+> **2025-2026年，是入局具身智能的最佳时机。**
 
 ---
 
 ## 📖 延伸阅读
 
 - [Open X-Embodiment Dataset](https://robotics-transformer-x.github.io)
+- [NVIDIA GR00T](https://nvidianews.nvidia.com/)
 - [Stanford HumanPlus](https://humanoid-ai.github.io/)
-- [CMU Robotics Institute Papers](https://www.ri.cmu.edu/publications/)
-- [Berkeley AI Research (BAIR) Blog](https://bair.berkeley.edu/)
+- [Figure AI](https://figure.ai/)
+- [HuggingFace LeRobot](https://huggingface.co/lerobot)
+- [Isaac Lab](https://isaac-sim.github.io/IsaacLab/)
 
 ---
 
@@ -628,6 +647,6 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 
 ---
 
-*最后更新：2025年1月*
+*最后更新：2026年2月*
 *作者：大白*
 *许可证：MIT*
