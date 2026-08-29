@@ -171,11 +171,13 @@ git push origin feature/xxx
 
 <div align="center">
 
-[![Star 增长趋势](https://gotonote.github.io/awesome-robot-hub/star-chart.svg)](https://github.com/gotonote/awesome-robot-hub/stargazers)
+[![Star 增长趋势](https://cdn.jsdelivr.net/gh/gotonote/awesome-robot-hub@main/docs/star-chart.svg)](https://github.com/gotonote/awesome-robot-hub/stargazers)
 
 </div>
 
 > 💡 若图片未加载，请点击上方链接直接访问 [Star 列表](https://github.com/gotonote/awesome-robot-hub/stargazers) 或 [star-history.com](https://star-history.com/#gotonote/awesome-robot-hub&Date) 查看完整增长曲线。
+>
+> 📌 图片由 jsDelivr CDN 托管（push 后自动刷新）；若在仓库 Settings → Pages 开启 GitHub Actions 部署，可改用 `https://gotonote.github.io/awesome-robot-hub/star-chart.svg`。
 
 ---
 
