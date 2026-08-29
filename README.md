@@ -16,7 +16,11 @@
 [![License: MIT](https://img.shields.io/badge/📜-MIT%20License-8b5cf6?style=for-the-badge)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/🙏-欢迎%20PR-ff6600?style=for-the-badge)](./CONTRIBUTING.md)
 
-[![🌐 在线文档](https://img.shields.io/badge/🌐-在线文档-22c55e?style=for-the-badge&logo=githubpages&logoColor=white)](https://gotonote.github.io/awesome-robot-hub/)
+<a href="https://gotonote.github.io/awesome-robot-hub/" style="display:inline-block;background:linear-gradient(90deg,#4ade80 0%,#16a34a 55%,#0ea5e9 100%);color:#ffffff;font-size:1.25em;font-weight:800;padding:14px 44px;border-radius:999px;text-decoration:none;box-shadow:0 6px 20px rgba(22,163,74,.45);">
+  <svg width="34" height="20" viewBox="0 0 40 22" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;margin-right:6px;"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="1.2s" repeatCount="indefinite"/><polygon points="20 22, 2 4, 38 4" fill="#ffffff"/></g></svg>🚀 立即体验在线文档
+</a>
+
+<p style="margin-top:10px;color:#64748b;font-size:.9em;">🌐 物理 AI / 具身智能全栈学习路线 · 15 章 · 60+ 文档 · 完全免费</p>
 
 </div>
 
