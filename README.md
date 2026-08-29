@@ -16,6 +16,8 @@
 [![License: MIT](https://img.shields.io/badge/📜-MIT%20License-8b5cf6?style=for-the-badge)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/🙏-欢迎%20PR-ff6600?style=for-the-badge)](./CONTRIBUTING.md)
 
+[![🌐 在线文档](https://img.shields.io/badge/🌐-在线文档-22c55e?style=for-the-badge&logo=githubpages&logoColor=white)](https://gotonote.github.io/awesome-robot-hub/)
+
 </div>
 
 ---
