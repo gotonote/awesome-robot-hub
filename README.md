@@ -4,6 +4,8 @@
 
 ### 物理 AI / 具身智能（Embodied AI）全栈学习笔记
 
+[🇨🇳 中文](README.md) · [🇬🇧 English](README.en.md)
+
 > 一套系统、由浅入深的物理 AI 学习路线：覆盖 **感知 → 控制 → 强化学习 → 模仿学习 → 世界模型 → 多模态大模型 → 产业应用**，持续更新中。
 
 **English**: A curated, beginner-friendly learning path for Physical AI / Embodied AI — from fundamentals (perception, control, RL, imitation learning) to frontier topics (world models, VLA models, diffusion policies) and industry applications. Continuously updated.
