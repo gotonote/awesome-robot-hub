@@ -1,0 +1,46 @@
+name: 🔗 Markdown 链接检查
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check-links:
+    name: 检查仓库内部链接
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 检查 Markdown 内部链接
+        run: |
+          python3 - <<'EOF'
+          import re, os, glob, sys
+
+          errors = []
+          for f in glob.glob('**/*.md', recursive=True):
+              if f.startswith('.git/'):
+                  continue
+              with open(f, encoding='utf-8') as fh:
+                  text = fh.read()
+              for m in re.finditer(r'\[[^\]]*\]\(([^)]+)\)', text):
+                  link = m.group(1).strip()
+                  target = link.split('#')[0].split(' ')[0]
+                  if not target or target.startswith(('http://', 'https://', 'mailto:', 'data:', 'ftp:')):
+                      continue
+                  resolved = os.path.normpath(os.path.join(os.path.dirname(f), target))
+                  if not os.path.exists(resolved):
+                      errors.append(f'{f}: 失效链接 -> {link}')
+
+          if errors:
+              print('发现失效链接：')
+              for e in errors:
+                  print('  ✗', e)
+              sys.exit(1)
+          print('✅ 所有内部链接均有效')
+          EOF

@@ -1,0 +1,28 @@
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+*.pyc
+__pycache__/
+.venv/
+venv/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 环境变量
+.env
+.env.local
+
+# 日志
+*.log
+
+# 临时文件
+tmp/
+temp/
+*.tmp
