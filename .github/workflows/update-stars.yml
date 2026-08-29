@@ -1,6 +1,8 @@
 name: Update Star Chart
 
 on:
+  push:
+    branches: [main]
   schedule:
     # 每天 16:00 UTC = 北京时间 0:00
     - cron: "0 16 * * *"

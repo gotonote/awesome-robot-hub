@@ -2,7 +2,10 @@
 """Fetch the latest star count of this repo and render the README star chart.
 
 - Queries the GitHub API for gotonote/awesome-robot-hub's stargazers_count
-- Records it into docs/star-history.json (same-day records are overwritten)
+- With GITHUB_TOKEN: rebuilds the full cumulative history from each stargazer's
+  exact `starred_at` date (real data, no waiting for daily snapshots to pile up)
+- Without token: records today's count into docs/star-history.json (same-day
+  records are overwritten)
 - Regenerates docs/star-chart.svg from the history (self-hosted, served by
   GitHub Pages so the README image never depends on third-party services)
 
@@ -14,6 +17,7 @@ import json
 import os
 import sys
 import urllib.request
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -40,6 +44,42 @@ def fetch_stars(repo: str = REPO) -> int:
     with urllib.request.urlopen(req, timeout=30) as resp:
         data = json.loads(resp.read().decode("utf-8"))
     return int(data["stargazers_count"])
+
+
+def fetch_star_history(token: str) -> dict:
+    """重建真实累计 Star 历史：抓取全部 stargazer 及其精确 `starred_at` 日期。
+
+    返回 {date: cumulative_stars}，并从首个 Star 前一天（0 星）起锚，
+    保证图表能立刻画出折线。
+    """
+    starred_dates = []
+    url = API + REPO + "/stargazers?per_page=100"
+    while url:
+        req = urllib.request.Request(url)
+        req.add_header("User-Agent", USER_AGENT)
+        req.add_header("Accept", "application/vnd.github.star+json")
+        req.add_header("Authorization", f"Bearer {token}")
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            starred_dates += [s["starred_at"][:10] for s in data]
+        url = None
+        for part in resp.headers.get("Link", "").split(","):
+            if 'rel="next"' in part:
+                url = part[part.find("<") + 1 : part.find(">")]
+        print(f"  fetched {len(starred_dates)} stargazers")
+
+    if not starred_dates:
+        return {}
+    cnt = Counter(starred_dates)
+    dates = sorted(cnt)
+    # 锚点：首个 Star 前一天为 0 星，让曲线从原点出发
+    anchor = (datetime.strptime(dates[0], "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
+    hist = {anchor: 0}
+    cum = 0
+    for d in dates:
+        cum += cnt[d]
+        hist[d] = cum
+    return hist
 
 
 def render_star_chart(hist: dict) -> str:
@@ -106,12 +146,22 @@ def main() -> int:
         print(f"!! fetch failed: {exc}", file=sys.stderr)
         return 1
 
-    # 记录本仓库自身的 Star 历史（同一天覆盖，用于 README 增长图）
     HIST_PATH.parent.mkdir(parents=True, exist_ok=True)
-    hist = json.loads(HIST_PATH.read_text(encoding="utf-8")) if HIST_PATH.exists() else {}
-    hist[now] = stars
+    if TOKEN:
+        # 有 token：用真实 starred_at 重建完整历史（含今日）
+        try:
+            hist = fetch_star_history(TOKEN)
+            print(f"backfilled {len(hist)} days from real stargazer data")
+        except Exception as exc:
+            print(f"!! backfill failed, falling back to daily record: {exc}", file=sys.stderr)
+            hist = json.loads(HIST_PATH.read_text(encoding="utf-8")) if HIST_PATH.exists() else {}
+            hist[now] = stars
+    else:
+        # 无 token：追加/覆盖今日快照
+        hist = json.loads(HIST_PATH.read_text(encoding="utf-8")) if HIST_PATH.exists() else {}
+        hist[now] = stars
     HIST_PATH.write_text(json.dumps(hist, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"star history: {now} -> {stars}")
+    print(f"star history: {len(hist)} points, latest = {stars}")
 
     # 重新生成 SVG 图表
     svg = render_star_chart(hist)
