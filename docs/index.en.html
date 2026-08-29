@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🤖 Awesome Robot Hub — Full-Stack Learning Notes for Physical AI / Embodied AI</title>
+<meta name="description" content="Full-stack learning notes for Physical AI / Embodied AI: perception → control → RL → imitation learning → world models → VLA models → industry applications. 15 chapters, 60+ docs, beginner-friendly, continuously updated.">
+<style>
+  :root {
+    --bg: #0f172a; --card: #1e293b; --text: #e2e8f0; --muted: #94a3b8;
+    --accent: #38bdf8; --green: #4ade80; --border: #334155;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.6;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 48px 20px 64px; }
+  header { text-align: center; margin-bottom: 40px; }
+  h1 { font-size: 2.2rem; margin-bottom: 8px; }
+  h1 .emoji { margin-right: 6px; }
+  .subtitle { color: var(--muted); font-size: 1.05rem; margin-bottom: 20px; }
+  .badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 12px; }
+  .badge {
+    background: var(--card); border: 1px solid var(--border); color: var(--muted);
+    padding: 4px 12px; border-radius: 999px; font-size: .82rem;
+  }
+  .badge b { color: var(--accent); font-weight: 600; }
+  .btn {
+    display: inline-block; background: var(--accent); color: #0f172a; font-weight: 700;
+    padding: 10px 26px; border-radius: 10px; text-decoration: none; margin: 6px;
+    transition: opacity .15s;
+  }
+  .btn:hover { opacity: .85; }
+  .btn.ghost { background: var(--card); color: var(--text); border: 1px solid var(--border); }
+  h2 { font-size: 1.3rem; margin: 36px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .chapters { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 640px) { .chapters { grid-template-columns: 1fr; } }
+  .chapter {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; text-decoration: none; color: var(--text); display: block;
+    transition: border-color .15s, transform .15s;
+  }
+  .chapter:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .chapter .t { font-weight: 600; margin-bottom: 4px; }
+  .chapter .d { color: var(--muted); font-size: .85rem; }
+  .starchart { text-align: center; margin: 8px 0 4px; }
+  .starchart img { max-width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+  .hint { color: var(--muted); font-size: .9rem; text-align: center; margin-top: 8px; }
+  footer { text-align: center; color: var(--muted); margin-top: 48px; font-size: .85rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1><span class="emoji">🤖</span>Awesome Robot Hub</h1>
+    <p style="margin-bottom:12px;"><a href="index.html" style="color:var(--muted);text-decoration:none;">🇨🇳 中文</a> <span style="color:var(--muted);">·</span> <a href="index.en.html" style="color:var(--accent);text-decoration:none;font-weight:600;">🇬🇧 English</a></p>
+    <p class="subtitle">Full-Stack Learning Notes for Physical AI / Embodied AI · Beginner-Friendly · Continuously Updated</p>
+    <div class="badges">
+      <span class="badge">📚 <b>15</b> Chapters</span>
+      <span class="badge">📄 <b>60+</b> Docs</span>
+      <span class="badge">🔄 Daily Updates</span>
+      <span class="badge">💻 Runnable Code</span>
+    </div>
+    <div>
+      <a class="btn" href="https://github.com/gotonote/awesome-robot-hub">⭐ GitHub Repo</a>
+      <a class="btn ghost" href="https://github.com/gotonote/awesome-robot-hub/blob/main/README.md">📖 Read the README</a>
+    </div>
+  </header>
+
+  <h2>🗺️ Learning Path (15 Chapters)</h2>
+  <div class="chapters">
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/01_入门指引"><div class="t">01 Getting Started 🚪</div><div class="d">What is Physical AI, history, learning path</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/02_基础概念"><div class="t">02 Fundamentals 🧮</div><div class="d">Robotics, kinematics, dynamics, state estimation</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/03_感知技术"><div class="t">03 Perception 👁️</div><div class="d">Computer vision, depth estimation, sensor fusion, event cameras</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/04_运动控制"><div class="t">04 Motion Control 🎮</div><div class="d">Path planning, MPC, obstacle avoidance, RL-based control</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/05_强化学习"><div class="t">05 Reinforcement Learning 🧠</div><div class="d">RL basics, PPO, SAC, DQN, Sim-to-Real</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/06_模仿学习"><div class="t">06 Imitation Learning 📋</div><div class="d">Behavior cloning, DAgger, GAIL, IRL</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/07_世界模型"><div class="t">07 World Models 🌍</div><div class="d">World models overview, frontier progress</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/08_多模态大模型"><div class="t">08 Multimodal LLMs 🗣️</div><div class="d">VLM, VLA, RT series, PaLM-E, ALOHA/ACT</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/09_扩散模型"><div class="t">09 Diffusion Models 🎨</div><div class="d">Diffusion Policy, generative actions</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/10_经典论文"><div class="t">10 Classic Papers 📄</div><div class="d">Milestone paper deep-dives (PPO, DQN, RT series…)</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/11_产业应用"><div class="t">11 Industry Applications 🏭</div><div class="d">Autonomous driving, humanoids, healthcare, industry</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/12_前沿动态"><div class="t">12 Frontier News 📰</div><div class="d">Latest papers, company updates, tech trends</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/13_开源项目"><div class="t">13 Open-Source Projects 🔧</div><div class="d">ROS/ROS2, robot arms, humanoids, sensors</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/14_仿真环境"><div class="t">14 Simulation 🖥️</div><div class="d">MuJoCo, Isaac Sim, PyBullet, SAPIEN</div></a>
+    <a class="chapter" href="https://github.com/gotonote/awesome-robot-hub/tree/main/15_实战教程"><div class="t">15 Hands-On Tutorials 💻</div><div class="d">Runnable code examples &amp; demos</div></a>
+  </div>
+
+  <h2>📈 Star History</h2>
+  <div class="starchart">
+    <img src="star-chart.svg" alt="Star growth chart">
+  </div>
+  <p class="hint">Auto-updated daily · maintained by GitHub Actions</p>
+
+  <footer>
+    <p>📝 Feedback / corrections → <a href="https://github.com/gotonote/awesome-robot-hub/issues">Issues</a> · 🧩 Contribute → <a href="https://github.com/gotonote/awesome-robot-hub/pulls">Pull Requests</a></p>
+    <p style="margin-top:6px;"><a href="https://github.com/gotonote/awesome-robot-hub/blob/main/LICENSE">MIT License</a> · <a href="https://github.com/gotonote/awesome-robot-hub">gotonote/awesome-robot-hub</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
