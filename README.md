@@ -11,7 +11,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/gotonote/awesome-robot-hub?style=for-the-badge&logo=github&color=orange)](https://github.com/gotonote/awesome-robot-hub/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/gotonote/awesome-robot-hub?style=for-the-badge&logo=github&color=blue)](https://github.com/gotonote/awesome-robot-hub/network)
 [![收录章节](https://img.shields.io/badge/📚-15%20章节-22c55e?style=for-the-badge)]()
-[![收录文档](https://img.shields.io/badge/📄-60%2B%20文档-3b82f6?style=for-the-badge)]()
+[![收录文档](https://img.shields.io/badge/📄-63%20文档-3b82f6?style=for-the-badge)]()
 [![持续更新](https://img.shields.io/badge/🤖-每日更新-f59e0b?style=for-the-badge)]()
 [![License: MIT](https://img.shields.io/badge/📜-MIT%20License-8b5cf6?style=for-the-badge)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/🙏-欢迎%20PR-ff6600?style=for-the-badge)](./CONTRIBUTING.md)
