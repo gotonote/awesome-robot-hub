@@ -167,7 +167,9 @@ git push origin feature/xxx
 
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=gotonote/awesome-robot-hub&type=Date)](https://star-history.com/#gotonote/awesome-robot-hub&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=gotonote/awesome-robot-hub&type=Date&theme=light&v=20260227)](https://star-history.com/#gotonote/awesome-robot-hub&Date)
+
+> 💡 若图片未加载，请点击上方链接直接访问 [star-history.com](https://star-history.com/#gotonote/awesome-robot-hub&Date) 查看 Star 增长曲线。
 
 ---
 
