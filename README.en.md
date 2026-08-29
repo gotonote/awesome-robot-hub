@@ -60,25 +60,25 @@ This repo organizes fragmented domain knowledge into a complete learning system:
 
 ## 📖 Table of Contents (15 Chapters)
 
-> The learning roadmap of this repo: 15 chapters from easy to hard — reading in order is recommended.
+> The learning roadmap of this repo: 15 chapters from easy to hard — reading in order is recommended. 📖 Each chapter has an [English introduction page](en/README.md); the in-depth documents inside chapters are being translated progressively.
 
 | Chapter | Topic | What's Inside |
 |---------|-------|---------------|
-| [01 Getting Started 🚪](01_入门指引/README.md) | Getting Started | What is Physical AI, history, learning path |
-| [02 Fundamentals 🧮](02_基础概念/README.md) | Fundamentals | Robotics, kinematics, dynamics, state estimation |
-| [03 Perception 👁️](03_感知技术/README.md) | Perception | Computer vision, depth estimation, sensor fusion, event cameras |
-| [04 Motion Control 🎮](04_运动控制/README.md) | Control | Path planning, MPC, obstacle avoidance, RL-based control |
-| [05 Reinforcement Learning 🧠](05_强化学习/README.md) | Learning | RL basics, PPO, SAC, DQN, Sim-to-Real |
-| [06 Imitation Learning 📋](06_模仿学习/README.md) | Learning | Behavior cloning, DAgger, GAIL, IRL |
-| [07 World Models 🌍](07_世界模型/README.md) | Frontier | World models overview, frontier progress |
-| [08 Multimodal LLMs 🗣️](08_多模态大模型/README.md) | Frontier | VLM, VLA, RT series, PaLM-E, ALOHA/ACT |
-| [09 Diffusion Models 🎨](09_扩散模型/README.md) | Frontier | Diffusion Policy, generative actions |
-| [10 Classic Papers 📄](10_经典论文/README.md) | Classics | Milestone paper deep-dives (PPO, DQN, RT series…) |
-| [11 Industry Applications 🏭](11_产业应用/README.md) | Applications | Autonomous driving, humanoids, healthcare, industry |
-| [12 Frontier News 📰](12_前沿动态/README.md) | News | Latest papers, company updates, tech trends |
-| [13 Open-Source Projects 🔧](13_开源项目/README.md) | Ecosystem | ROS/ROS2, robot arms, humanoids, sensors |
-| [14 Simulation 🖥️](14_仿真环境/README.md) | Practice | MuJoCo, Isaac Sim, PyBullet, SAPIEN |
-| [15 Hands-On Tutorials 💻](15_实战教程/README.md) | Practice | Runnable code examples & demos |
+| [01 Getting Started 🚪](en/01-getting-started.md) | Getting Started | What is Physical AI, history, learning path |
+| [02 Fundamentals 🧮](en/02-fundamentals.md) | Fundamentals | Robotics, kinematics, dynamics, state estimation |
+| [03 Perception 👁️](en/03-perception.md) | Perception | Computer vision, depth estimation, sensor fusion, event cameras |
+| [04 Motion Control 🎮](en/04-motion-control.md) | Control | Path planning, MPC, obstacle avoidance, RL-based control |
+| [05 Reinforcement Learning 🧠](en/05-reinforcement-learning.md) | Learning | RL basics, PPO, SAC, DQN, Sim-to-Real |
+| [06 Imitation Learning 📋](en/06-imitation-learning.md) | Learning | Behavior cloning, DAgger, GAIL, IRL |
+| [07 World Models 🌍](en/07-world-models.md) | Frontier | World models overview, frontier progress |
+| [08 Multimodal LLMs 🗣️](en/08-multimodal-llms.md) | Frontier | VLM, VLA, RT series, PaLM-E, ALOHA/ACT |
+| [09 Diffusion Models 🎨](en/09-diffusion-models.md) | Frontier | Diffusion Policy, generative actions |
+| [10 Classic Papers 📄](en/10-classic-papers.md) | Classics | Milestone paper deep-dives (PPO, DQN, RT series…) |
+| [11 Industry Applications 🏭](en/11-industry-applications.md) | Applications | Autonomous driving, humanoids, healthcare, industry |
+| [12 Frontier News 📰](en/12-frontier-news.md) | News | Latest papers, company updates, tech trends |
+| [13 Open-Source Projects 🔧](en/13-open-source-projects.md) | Ecosystem | ROS/ROS2, robot arms, humanoids, sensors |
+| [14 Simulation 🖥️](en/14-simulation.md) | Practice | MuJoCo, Isaac Sim, PyBullet, SAPIEN |
+| [15 Hands-On Tutorials 💻](en/15-hands-on-tutorials.md) | Practice | Runnable code examples & demos |
 
 ---
 
