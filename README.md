@@ -16,23 +16,7 @@
 [![License: MIT](https://img.shields.io/badge/📜-MIT%20License-8b5cf6?style=for-the-badge)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/🙏-欢迎%20PR-ff6600?style=for-the-badge)](./CONTRIBUTING.md)
 
-**🚀 Star ⭐ 一下，让更多人看到这份持续更新的学习资料！**
-
 </div>
-
----
-
-## 📖 目录
-
-- 🎯 [这是什么](#-这是什么)
-- ✨ [特性亮点](#-特性亮点)
-- 🗺️ [内容地图（15 章）](#️-内容地图15-章)
-- 🚀 [快速开始](#-快速开始)
-- 📅 [每日前沿](#-每日前沿)
-- 🤝 [参与贡献](#-参与贡献)
-- 📈 [Star History](#-star-history)
-- 📄 [License](#-license)
-- 📮 [联系方式](#-联系方式)
 
 ---
 
@@ -66,7 +50,9 @@
 
 ---
 
-## 🗺️ 内容地图（15 章）
+## 📖 目录（15 章）
+
+> 整个仓库的学习路线地图：15 章由浅入深，建议按序号顺序阅读。
 
 | 章节 | 主题 | 一句话内容 |
 |------|------|-----------|
@@ -86,34 +72,25 @@
 | [14_仿真环境 🖥️](14_仿真环境/README.md) | 实践 | MuJoCo、Isaac Sim、PyBullet、SAPIEN |
 | [15_实战教程 💻](15_实战教程/README.md) | 实践 | 可运行代码案例、Demo |
 
-<div align="center">
-
-**内容规模**：`15` 章节 · `60+` 篇文档 · `~20000` 行 Markdown
-
-</div>
-
 ---
 
 ## 🚀 快速开始
 
+零门槛：无需安装任何依赖，纯 Markdown 内容，GitHub 网页端即可直接阅读。
+
 ```bash
-# 克隆仓库
 git clone https://github.com/gotonote/awesome-robot-hub.git
 cd awesome-robot-hub
-
-# 直接浏览（推荐）—— 在浏览器中打开任意章节
-# 或使用支持 Markdown 预览的编辑器（VS Code / Typora 等）
+# 打开任意章节的 README.md 阅读（或使用 VS Code / Typora 等 Markdown 编辑器）
 ```
 
-> 📌 无需安装任何依赖，纯 Markdown 内容，GitHub 网页端即可直接阅读。
+**推荐阅读路径：**
 
----
-
-## 📅 每日前沿
-
-每日更新无人驾驶 / 物理 AI 领域最新动态、公司进展与技术突破：
-
-👉 **[进入每日前沿 →](./12_前沿动态/)**
+| 你的情况 | 建议路径 |
+|---------|---------|
+| 🐣 零基础入门 | 按 `01 → 02 → … → 15` 顺序系统学习 |
+| 🧑‍💻 有编程 / ML 基础 | 从 [05_强化学习](05_强化学习/README.md) 或 [08_多模态大模型](08_多模态大模型/README.md) 切入 |
+| 🚀 关注前沿 / 产业 | 直接看 [11_产业应用](11_产业应用/README.md) 与 [12_前沿动态](12_前沿动态/README.md) |
 
 ---
 
@@ -161,7 +138,6 @@ git push origin feature/xxx
 ## 📮 联系方式
 
 - 💬 内容建议 / 错误指正 → [GitHub Issues](https://github.com/gotonote/awesome-robot-hub/issues)
-- ⭐ 觉得有用请 Star，帮助更多人看到
 - 📨 欢迎通过 PR 一起共建这份开源学习笔记
 
 ---
