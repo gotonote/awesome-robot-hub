@@ -30,7 +30,6 @@
 - 🚀 [快速开始](#-快速开始)
 - 📅 [每日前沿](#-每日前沿)
 - 🤝 [参与贡献](#-参与贡献)
-- 🛣️ [Roadmap](#️-roadmap)
 - 📈 [Star History](#-star-history)
 - 📄 [License](#-license)
 - 📮 [联系方式](#-联系方式)
@@ -134,20 +133,6 @@ git commit -m "feat: 添加 xxx 内容"
 git push origin feature/xxx
 # 然后提交 Pull Request
 ```
-
----
-
-## 🛣️ Roadmap
-
-- [x] ✅ 15 章节基础框架搭建
-- [x] ✅ 感知 / 控制 / 强化学习 / 模仿学习核心内容
-- [x] ✅ 每日前沿动态持续更新
-- [ ] ⬜ 更多实战代码与可复现 Demo
-- [ ] ⬜ 英文版内容（国际化推广）
-- [ ] ⬜ 知识图谱 / 可视化学习路线
-- [ ] ⬜ 配套视频讲解
-
-> 💬 欢迎在 [Issues](https://github.com/gotonote/awesome-robot-hub/issues) 中提出你的建议！
 
 ---
 
