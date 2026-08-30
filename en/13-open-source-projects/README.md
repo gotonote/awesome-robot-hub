@@ -4,13 +4,13 @@ This chapter introduces robot hardware platforms — ROS/ROS2, robot arms, human
 
 ## Contents
 
-- [1. ROS / ROS2](13-01-ros.md)
+- [1. ROS / ROS2](01-ros.md)
   - Robot software frameworks
-- [2. Robot Arms](13-02-robot-arms.md)
+- [2. Robot Arms](02-robot-arms.md)
   - Franka, xArm, UR
-- [3. Humanoid Robots](13-03-humanoid-robots.md)
+- [3. Humanoid Robots](03-humanoid-robots.md)
   - Unitree, Atlas
-- [4. End-Effectors & Sensors](13-04-end-effectors.md)
+- [4. End-Effectors & Sensors](04-end-effectors.md)
   - Grippers, cameras, force sensors
 
 ---

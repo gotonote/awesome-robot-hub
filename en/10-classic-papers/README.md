@@ -4,7 +4,7 @@ Milestone paper interpretations in Physical AI / Embodied AI — from reinforcem
 
 ## Contents
 
-- [1. Milestone Paper Deep-Dives](10-01-milestone-papers.md)
+- [1. Milestone Paper Deep-Dives](01-milestone-papers.md)
   - RL: PPO, DQN, SAC, TD3
   - Imitation learning: behavior cloning, DAgger, GAIL
   - Foundation models: RT-1 / RT-2, PaLM-E, Diffusion Policy

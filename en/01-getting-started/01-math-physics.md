@@ -643,10 +643,10 @@ where:
 
 ## 🔗 Related Chapters
 
-- [03 Perception](../03_感知技术/README.md) — perception (vision, depth, sensors)
-- [04 Motion Control](../04_运动控制/README.md) — motion planning & control
-- [05 Reinforcement Learning](../05_强化学习/README.md) — RL basics
-- [06 Imitation Learning](../06_模仿学习/README.md) — imitation learning basics
+- [03 Perception](../../03_感知技术/README.md) — perception (vision, depth, sensors)
+- [04 Motion Control](../../04_运动控制/README.md) — motion planning & control
+- [05 Reinforcement Learning](../../05_强化学习/README.md) — RL basics
+- [06 Imitation Learning](../../06_模仿学习/README.md) — imitation learning basics
 
 ---
 
