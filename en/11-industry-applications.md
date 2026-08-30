@@ -4,14 +4,14 @@ Application cases of Physical AI technology across various domains.
 
 ## Contents
 
-- [1. Autonomous Driving](../11_产业应用/自动驾驶.md) *(content in Chinese)*
+- [1. Autonomous Driving](11-autonomous-driving.md)
   - L4/L5 levels
   - Perception, planning, control
-- [2. Service Robots](../11_产业应用/服务机器人.md) *(content in Chinese)*
+- [2. Service Robots](11-service-robots.md)
   - Indoor navigation, human-robot interaction
-- [3. Industrial Automation](../11_产业应用/工业自动化.md) *(content in Chinese)*
+- [3. Industrial Automation](11-industrial-automation.md)
   - Flexible manufacturing, quality inspection
-- [4. Medical Robots](../11_产业应用/医疗机器人.md) *(content in Chinese)*
+- [4. Medical Robots](11-medical-robots.md)
   - Surgery, rehabilitation, telemedicine
 
 ---

@@ -4,11 +4,11 @@ Foundations of robotics and mathematical physics — the prerequisite for unders
 
 ## Contents
 
-- [1. Robotics Fundamentals](../02_基础概念/机器人学基础概念.md) *(content in Chinese)*
+- [1. Robotics Fundamentals](02-robotics-fundamentals.md)
   - Robot system composition
   - Joint types and degrees of freedom (DoF)
   - Kinematics and dynamics
-- [2. Sensors & State Estimation Basics](../02_基础概念/传感器与状态估计基础.md) *(content in Chinese)*
+- [2. Sensors & State Estimation Basics](02-sensors-state-estimation.md)
   - Sensor taxonomy and principles
   - Kalman filter, particle filter
   - State estimation in robotics

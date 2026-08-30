@@ -4,13 +4,13 @@ This chapter introduces robot hardware platforms — ROS/ROS2, robot arms, human
 
 ## Contents
 
-- [1. ROS / ROS2](../13_开源项目/ROS_ROS2.md) *(content in Chinese)*
+- [1. ROS / ROS2](13-ros.md)
   - Robot software frameworks
-- [2. Robot Arms](../13_开源项目/机械臂.md) *(content in Chinese)*
+- [2. Robot Arms](13-robot-arms.md)
   - Franka, xArm, UR
-- [3. Humanoid Robots](../13_开源项目/人形机器人.md) *(content in Chinese)*
+- [3. Humanoid Robots](13-humanoid-robots.md)
   - Unitree, Atlas
-- [4. End-Effectors & Sensors](../13_开源项目/末端执行器与传感器.md) *(content in Chinese)*
+- [4. End-Effectors & Sensors](13-end-effectors.md)
   - Grippers, cameras, force sensors
 
 ---

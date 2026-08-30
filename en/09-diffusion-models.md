@@ -4,7 +4,7 @@ Diffusion models have moved from image generation to robot policy learning in re
 
 ## Contents
 
-- [1. Diffusion Policy In-Depth](../09_扩散模型/Diffusion_Policy_详解.md) *(content in Chinese)*
+- [1. Diffusion Policy In-Depth](09-diffusion-policy-detail.md)
   - Background & motivation
   - Diffusion model fundamentals
   - Action generation pipeline

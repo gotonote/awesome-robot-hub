@@ -4,16 +4,16 @@ Robot simulation is an essential tool for training and validating robot algorith
 
 ## Contents
 
-- [1. NVIDIA Isaac Sim](../14_仿真环境/NVIDIA_Isaac_Sim.md) *(content in Chinese)*
+- [1. NVIDIA Isaac Sim](14-isaac-sim.md)
   - GPU acceleration
   - RTX rendering
-- [2. MuJoCo](../14_仿真环境/MuJoCo.md) *(content in Chinese)*
+- [2. MuJoCo](14-mujoco.md)
   - High-precision physics
   - Control benchmarks
-- [3. PyBullet / Gazebo](../14_仿真环境/PyBullet_Gazebo.md) *(content in Chinese)*
+- [3. PyBullet / Gazebo](14-pybullet-gazebo.md)
   - Open-source, easy to use
   - ROS integration
-- [4. SAPIEN](../14_仿真环境/SAPIEN.md) *(content in Chinese)*
+- [4. SAPIEN](14-sapien.md)
   - High-fidelity interaction
 
 ---

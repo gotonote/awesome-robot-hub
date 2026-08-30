@@ -1,7 +1,7 @@
 # 🌍 English Edition — Awesome Robot Hub
 
-> Full-stack learning notes for **Physical AI / Embodied AI**, now available in English.
-> Each page below is the English introduction to its corresponding chapter. The in-depth content documents within each chapter are currently in Chinese — we are translating them progressively.
+> Full-stack learning notes for **Physical AI / Embodied AI**, now fully available in English. ✅
+> All 15 chapter pages **and** all in-depth content documents have been translated into English. The Chinese editions remain the authoritative source — we keep both in sync.
 
 [🇨🇳 中文版](https://github.com/gotonote/awesome-robot-hub) · [🇬🇧 English](README.md)
 
@@ -31,13 +31,13 @@
 
 ## 📖 Notes on This Translation
 
-- **Chapter pages**: The 15 chapter pages above are full English translations of each chapter's README (table of contents).
-- **Content documents**: The detailed documents inside each chapter (e.g. `机器人学基础概念.md`) are still in Chinese. Links to them are marked *(content in Chinese)*.
-- **Translation progress**: Content documents are being translated progressively. Check back often, or help translate via [Pull Requests](https://github.com/gotonote/awesome-robot-hub/pulls)!
+- **Chapter pages**: the 15 chapter pages above are full English translations of each chapter's README.
+- **Content documents**: all in-depth documents inside each chapter (kinematics, RL, diffusion policy, etc.) have been fully translated as well. Links from the chapter pages point directly to the English documents.
+- **Diagrams & code**: ASCII diagrams are preserved with English captions; all code blocks remain runnable.
 
-## 🤝 Help Translate
+## 🤝 Help Improve
 
-Want to help? Pick any untranslated document, translate it, and open a PR. Every contribution counts!
+Found a translation issue? Open a PR — every contribution counts!
 
 - 📋 See [CONTRIBUTING.md](../CONTRIBUTING.md)
 - 🐛 Suggestions / issues → [Issues](https://github.com/gotonote/awesome-robot-hub/issues)

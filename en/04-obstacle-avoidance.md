@@ -403,7 +403,7 @@ The potential field method models the environment as a potential field:
 - The goal generates an attractive field
 - Obstacles generate repulsive fields
 
-See [Path Planning - Potential Field](./路径规划.md#5-势场法) *(content in Chinese)*
+See [Path Planning - Potential Field](04-path-planning.md#5-potential-field-method)
 
 ### 3.2 Improvements
 

@@ -4,11 +4,11 @@ Frontier progress, company updates, and technology trends in Physical AI.
 
 ## Contents
 
-- [1. Latest Papers](../12_前沿动态/最新论文.md) *(content in Chinese)*
+- [1. Latest Papers](12-latest-papers.md)
   - VLA, reinforcement learning, imitation learning
-- [2. Company Updates](../12_前沿动态/公司动态.md) *(content in Chinese)*
+- [2. Company Updates](12-company-news.md)
   - Industry giants, startups
-- [3. Technology Trends](../12_前沿动态/技术趋势.md) *(content in Chinese)*
+- [3. Technology Trends](12-tech-trends.md)
   - Directions, future predictions
 
 ---
