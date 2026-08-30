@@ -655,6 +655,7 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 
 ## 📖 Further Reading
 
+- 📄 [Math & Physics Foundations](01-01-math-physics.md) — linear algebra, probability, optimization, kinematics/dynamics, control theory
 - [Open X-Embodiment Dataset](https://robotics-transformer-x.github.io)
 - [NVIDIA GR00T](https://nvidianews.nvidia.com/)
 - [Stanford HumanPlus](https://humanoid-ai.github.io/)

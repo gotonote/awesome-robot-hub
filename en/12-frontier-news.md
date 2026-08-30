@@ -4,12 +4,14 @@ Frontier progress, company updates, and technology trends in Physical AI.
 
 ## Contents
 
-- [1. Latest Papers](12-latest-papers.md)
+- [1. Latest Papers](12-01-latest-papers.md)
   - VLA, reinforcement learning, imitation learning
-- [2. Company Updates](12-company-news.md)
+- [2. Company Updates](12-02-company-news.md)
   - Industry giants, startups
-- [3. Technology Trends](12-tech-trends.md)
+- [3. Technology Trends](12-03-tech-trends.md)
   - Directions, future predictions
+- [4. Classic Papers](12-04-paper-classics.md)
+  - Milestone papers (DQN, PPO, RT series…)
 
 ---
 

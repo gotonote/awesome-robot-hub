@@ -89,24 +89,24 @@ The **configuration space** is the space describing all possible poses of the ro
 
 ## Chapter Content
 
-### [Path Planning](04-path-planning.md)
+### [Path Planning](04-02-path-planning.md)
 - A* algorithm
 - RRT (Rapidly-exploring Random Tree)
 - RRT* (optimal RRT)
 - Potential field method
 
-### [Kinematics](04-kinematics.md)
+### [Kinematics](04-01-kinematics.md)
 - Forward kinematics
 - Inverse kinematics
 - DH parameters
 - Jacobian matrix
 
-### [Obstacle Avoidance](04-obstacle-avoidance.md)
+### [Obstacle Avoidance](04-03-obstacle-avoidance.md)
 - Dynamic Window Approach (DWA)
 - Artificial potential field
 - Model Predictive Control (MPC)
 
-### [Model Predictive Control (MPC)](04-mpc.md)
+### [Model Predictive Control (MPC)](04-04-mpc.md)
 - MPC fundamentals
 - Linear / nonlinear MPC
 - Mobile robot trajectory tracking
@@ -114,7 +114,7 @@ The **configuration space** is the space describing all possible poses of the ro
 - Bipedal robot gait planning
 - Drone flight control
 
-### [RL-Based Motion Control](04-rl-motion-control.md)
+### [RL-Based Motion Control](04-05-rl-motion-control.md)
 - RL basics (MDP, Bellman equation)
 - Classic algorithms (Q-Learning, DQN)
 - Policy gradient methods (REINFORCE, Actor-Critic)

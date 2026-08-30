@@ -4,11 +4,11 @@ A **World Model** is an agent's internal representation and predictive model of 
 
 ## Contents
 
-- [1. World Models Overview](07-world-models-overview.md)
+- [1. World Models Overview](07-01-world-models-overview.md)
   - Definition & core ideas
   - Where world models fit in intelligent systems
   - Classic frameworks & implementations
-- [2. Frontier Updates](07-world-model-frontier.md)
+- [2. Frontier Updates](07-02-world-model-frontier.md)
   - Latest research progress
 
 ---

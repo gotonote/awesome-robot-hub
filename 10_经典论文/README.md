@@ -4,7 +4,7 @@
 
 ## 目录
 
-- [1. 里程碑论文解读](./里程碑论文解读.md)
+- [1. 里程碑论文解读](./01_里程碑论文解读.md)
   - 强化学习篇：PPO、DQN、SAC、TD3
   - 模仿学习篇：行为克隆、DAgger、GAIL
   - 大模型篇：RT-1 / RT-2、PaLM-E、Diffusion Policy

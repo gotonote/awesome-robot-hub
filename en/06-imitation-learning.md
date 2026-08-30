@@ -4,16 +4,16 @@ Imitation learning acquires skills by mimicking expert behavior — an important
 
 ## Contents
 
-- [1. Behavior Cloning](06-behavior-cloning.md)
+- [1. Behavior Cloning](06-01-behavior-cloning.md)
   - Supervised learning methods
   - Regularization techniques
-- [2. Inverse Reinforcement Learning](06-irl.md)
+- [2. Inverse Reinforcement Learning](06-02-irl.md)
   - Maximum entropy IRL
   - GAIL
-- [3. Diffusion Policy](06-diffusion-policy.md)
+- [3. Diffusion Policy](06-03-diffusion-policy.md)
   - Conditional diffusion models
   - Visuomotor policies
-- [4. DAgger](06-dagger.md)
+- [4. DAgger](06-04-dagger.md)
   - Iterative expert aggregation
   - Selective labeling
 

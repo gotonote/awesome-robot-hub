@@ -4,14 +4,14 @@
 
 ## 目录
 
-- [1. VLA模型](./VLA.md)
+- [1. VLA模型](./01_VLA.md)
   - 视觉-语言-动作统一模型
-- [2. RT-X / Open X-Embodiment](./RT_X.md)
+- [2. RT-X / Open X-Embodiment](./02_RT_X.md)
   - 跨实体学习
-- [3. ALOHA / ACT](./ALOHA_ACT.md)
+- [3. ALOHA / ACT](./03_ALOHA_ACT.md)
   - 低成本机器人平台
   - Action Chunking Transformer
-- [4. 大模型驱动机器人控制](./大模型驱动机器人控制.md)
+- [4. 大模型驱动机器人控制](./04_大模型驱动机器人控制.md)
   - 代码生成
   - 任务规划
 

@@ -629,6 +629,7 @@ Level 5 ───────▶ 完全自动化（任何条件下无需人类�
 
 ## 📖 延伸阅读
 
+- 📄 [数学物理基础](./01_数学物理基础.md) — 线性代数、概率论、优化、运动学/动力学、控制理论
 - [Open X-Embodiment Dataset](https://robotics-transformer-x.github.io)
 - [NVIDIA GR00T](https://nvidianews.nvidia.com/)
 - [Stanford HumanPlus](https://humanoid-ai.github.io/)

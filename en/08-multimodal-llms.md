@@ -4,14 +4,14 @@ Large language models (LLMs) and multimodal foundation models are revolutionizin
 
 ## Contents
 
-- [1. VLA Models](08-vla.md)
+- [1. VLA Models](08-01-vla.md)
   - Unified vision-language-action models
-- [2. RT-X / Open X-Embodiment](08-rt-x.md)
+- [2. RT-X / Open X-Embodiment](08-02-rt-x.md)
   - Cross-embodiment learning
-- [3. ALOHA / ACT](08-aloha-act.md)
+- [3. ALOHA / ACT](08-03-aloha-act.md)
   - Low-cost robot platforms
   - Action Chunking Transformer
-- [4. LLM-Driven Robot Control](08-llm-robot-control.md)
+- [4. LLM-Driven Robot Control](08-04-llm-robot-control.md)
   - Code generation
   - Task planning
 

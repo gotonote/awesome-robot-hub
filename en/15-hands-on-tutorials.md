@@ -4,7 +4,7 @@ Implement robot control algorithms from scratch — complete, runnable Python co
 
 ## Contents
 
-- [1. Algorithm Implementation Cases](15-algorithm-cases.md)
+- [1. Algorithm Implementation Cases](15-01-algorithm-cases.md)
   - Environment setup & dependencies
   - Basic control algorithm implementations
   - RL / imitation learning in practice
@@ -18,7 +18,7 @@ Implement robot control algorithms from scratch — complete, runnable Python co
 pip install numpy torch gymnasium pybullet matplotlib
 ```
 
-Then follow [Algorithm Implementation Cases](15-algorithm-cases.md) step by step to build your first robot control demo.
+Then follow [Algorithm Implementation Cases](15-01-algorithm-cases.md) step by step to build your first robot control demo.
 
 ---
 

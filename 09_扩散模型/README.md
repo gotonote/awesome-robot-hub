@@ -4,7 +4,7 @@
 
 ## 目录
 
-- [1. Diffusion Policy 详解](./Diffusion_Policy_详解.md)
+- [1. Diffusion Policy 详解](./01_Diffusion_Policy_详解.md)
   - 背景与动机
   - 扩散模型基础
   - 动作生成流程

@@ -4,16 +4,16 @@
 
 ## 目录
 
-- [1. 行为克隆](./Behavior_Cloning.md)
+- [1. 行为克隆](./01_Behavior_Cloning.md)
   - 监督学习方法
   - 正则化技术
-- [2. 逆强化学习](./Inverse_Reinforcement_Learning.md)
+- [2. 逆强化学习](./02_Inverse_Reinforcement_Learning.md)
   - 最大熵IRL
   - GAIL
-- [3. 扩散策略](./Diffusion_Policy.md)
+- [3. 扩散策略](./03_Diffusion_Policy.md)
   - 条件扩散模型
   - 视觉运动策略
-- [4. DAgger](./DAgger.md)
+- [4. DAgger](./04_DAgger.md)
   - 迭代式专家聚合
   - 选择性标注
 

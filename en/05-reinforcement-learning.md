@@ -4,19 +4,19 @@ Reinforcement Learning (RL) is a core technology of Physical AI, enabling agents
 
 ## Contents
 
-- [1. RL Basics](05-rl-basics.md)
+- [1. RL Basics](05-01-rl-basics.md)
   - Markov Decision Processes
   - Value functions & policy gradients
   - DQN and its variants
-- [2. Offline Reinforcement Learning](05-offline-rl.md)
+- [2. Offline Reinforcement Learning](05-02-offline-rl.md)
   - Distribution shift problem
   - CQL algorithm
   - Practical frameworks
-- [3. Sim-to-Real Transfer](05-sim2real.md)
+- [3. Sim-to-Real Transfer](05-03-sim2real.md)
   - Domain randomization
   - Domain adaptation
   - Curriculum learning
-- [4. Distributed Reinforcement Learning](05-distributed-rl.md)
+- [4. Distributed Reinforcement Learning](05-04-distributed-rl.md)
   - Distributed architectures
   - IMPALA / Ape-X
   - Parameter synchronization
